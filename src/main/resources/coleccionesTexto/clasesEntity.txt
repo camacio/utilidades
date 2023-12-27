@@ -1,0 +1,6 @@
+main.java.entity.AutorEntity
+main.java.entity.MultaEntity
+main.java.entity.UsuarioEntity
+main.java.entity.elementos.LibroEntity
+main.java.entity.elementos.PeliculaEntity
+main.java.entity.elementos.RevistaEntity

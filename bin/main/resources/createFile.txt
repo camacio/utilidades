@@ -1,0 +1,22 @@
+CREATE TABLE Autor (
+    id INT GENERATED ALWAYS AS IDENTITY,
+    contador_id INT,
+    nombre VARCHAR(50),
+    apellido VARCHAR(50),
+    nombre_completo VARCHAR(100),
+    fecha_nacimiento DATE,
+    pais_nacimiento VARCHAR(50),
+    PRIMARY KEY (id)
+);
+
+
+CREATE TABLE Multa (
+    id INT GENERATED ALWAYS AS IDENTITY,
+    contador_id INT,
+    id_multa INT,
+    id_usuario INT,
+    cantidad_dinero DOUBLE,
+    fecha_vencimiento DATE,
+    motivo VARCHAR(100),
+    PRIMARY KEY (id)
+);
